@@ -1,0 +1,29 @@
+{
+  "name": "noravel",
+  "version": "1.0.0",
+  "description": "Noravel is a Node Extended Framework using the MVC pattern for building flexible web applications.",
+  "main": "start.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/delino12/noravel.git"
+  },
+  "keywords": [
+    "expressJs",
+    "NodeJs",
+    "Pug",
+    "Templating",
+    "engine",
+    "Pusher",
+    "and",
+    "MongoDB"
+  ],
+  "author": "Ekpoto Liberty Bernard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/delino12/noravel/issues"
+  },
+  "homepage": "https://github.com/delino12/noravel#readme"
+}

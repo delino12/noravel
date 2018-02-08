@@ -1,0 +1,25 @@
+/*
+* version 1.0.0
+* Noravel CSS
+* Ekpoto Liberty Bernard
+*/
+
+html {
+	font-family: vendera;
+	font-size: 13px;
+}
+
+.cover {
+	margin-top: 50%;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color:#797979;
+	padding: 10px;
+}
+
+a:hover {
+	color:#718794;
+}
