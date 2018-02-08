@@ -17,3 +17,11 @@ Install nodemon
 	run npm install -g nodemon
 ```
 
+To start application
+```javascript
+	run nodemon
+```
+
+Now your application is up and running !
+
+More updates loading.... Stay alert !
