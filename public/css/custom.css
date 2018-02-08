@@ -5,7 +5,7 @@
 */
 
 html {
-	font-family: vendera;
+	font-family: Gill Sans;
 	font-size: 13px;
 }
 
@@ -17,9 +17,16 @@ html {
 a {
 	text-decoration: none;
 	color:#797979;
-	padding: 10px;
+	padding: 8px;
+	font-family: Gill Sans, vendera;
 }
 
 a:hover {
 	color:#718794;
+}
+
+
+.footer {
+	margin-top: 20%;
+	text-align: center;
 }
