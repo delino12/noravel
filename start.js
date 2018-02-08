@@ -5,7 +5,7 @@ let app = require('./app');
 let database = require('./database/database');
 
 // set application port
-let PORT = process.env.PORT || 3000;
+let PORT = process.env.DB_PORT || 3000;
 
 // start application server
 app.listen(PORT, function (){
