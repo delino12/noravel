@@ -6,6 +6,7 @@ let internal = require('../_controllers/internal-controller'); // Authentication
 
 // un-aunthenticated uri
 router.get('/', external.index);
+router.get('/documentations', external.documentation);
 
 // aunthenticated uri
 // router.get('/dashboard', internal.dashboard); // user dashboard

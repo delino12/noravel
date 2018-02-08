@@ -7,8 +7,13 @@ Get Started:
 
 Clone repository url: https://github.com/delino12/noravel
 
-open your terminal 
-
+open your terminal or shell console
 ```javascript
 	run npm install 
 ```
+
+Install nodemon 
+```javascript
+	run npm install -g nodemon
+```
+
