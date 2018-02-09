@@ -37,12 +37,12 @@ app.use(bodyParser.json());
 app.use(cookieParser());
 
 // init app session
-// app.use(session({
-//   secret: 'noravel',
-//   resave: true,
-//   saveUninitialized: true,
-//   cookie: { secure: true }
-// }));
+app.use(session({
+  secret: 'noravel',
+  resave: true,
+  saveUninitialized: true,
+  cookie: { secure: true }
+}));
 
 // init connect flash 
 app.use(flash());
@@ -61,8 +61,8 @@ require('./config/auth')(passport);
 
 // init passport
 app.use(passport.initialize());
-// persistent login sessions
-// app.use(passport.session()); 
+persistent login sessions
+app.use(passport.session()); 
 
 // web routes index entry
 app.use('/', route);
