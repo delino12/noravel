@@ -2,9 +2,10 @@
   "name": "noravel",
   "version": "1.0.0",
   "description": "Noravel is a Node Extended Framework using the MVC pattern for building flexible web applications.",
-  "main": "start.js",
+  "main": "start",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start" "node start"
   },
   "repository": {
     "type": "git",
