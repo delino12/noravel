@@ -60,9 +60,9 @@ app.use(expressValidator());
 // require('./config/auth')(passport);
 
 // init passport
-app.use(passport.initialize());
+// app.use(passport.initialize());
 // persistent login sessions
-app.use(passport.session()); 
+// app.use(passport.session()); 
 
 // web routes index entry
 app.use('/', route);
