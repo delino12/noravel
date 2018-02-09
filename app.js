@@ -4,7 +4,7 @@ require('dotenv').config()
 // import packages
 let express      = require('express');
 let path         = require('path');
-let favicon      = require('serve-favicon');
+// let favicon      = require('serve-favicon');
 let mongoose     = require('mongoose');
 let cookieParser = require('cookie-parser');
 let session      = require('express-session');
