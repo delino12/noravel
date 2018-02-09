@@ -2,7 +2,7 @@
 // set appliction path
 let app = require('./app');
 // set database path
-let database = require('./database/database');
+// let database = require('./database/database');
 
 // set application port
 let PORT = process.env.DB_PORT || 3000;
