@@ -26,6 +26,7 @@
   "bugs": {
     "url": "https://github.com/delino12/noravel/issues"
   },
+
   "homepage": "https://github.com/delino12/noravel#readme",
   "dependencies": {
     "bcrypt": "^1.0.3",
@@ -46,5 +47,9 @@
     "pug": "^2.0.0-rc.4",
     "pusher": "^1.5.1",
     "serve-favicon": "^2.4.5"
-  }
+  },
+  "engines": {
+    "node": "8.6.0",
+    "npm": "5.6.0"
+  },
 }
