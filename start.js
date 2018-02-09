@@ -6,9 +6,9 @@ let app = require('./app');
 
 // set application port
 let PORT = process.env.DB_PORT || 3000;
-
+let HOST = '0.0.0.0';
 // start application server
-app.listen(PORT, function (){
+app.listen(PORT, HOST, function (){
 	console.log('Launching noravel');
 	console.log("Server starting....");
 	console.log("Server running: http://localhost:" + PORT);
