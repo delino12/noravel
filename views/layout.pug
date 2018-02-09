@@ -10,6 +10,9 @@ html
 		script(src='https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js')
 		script(src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js')
 		
+		//- Font awesome packs
+		script(defer src='https://use.fontawesome.com/releases/v5.0.6/js/all.js')
+
 		//- custom javascript
 		script(src='/js/custom.js')
 	body
@@ -20,3 +23,4 @@ html
 			a(href='https://github.com/delino12/noravel') Github
 		div.footer
 			span &copy; #{contents.date} Noravel
+		block content
