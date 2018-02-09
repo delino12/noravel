@@ -57,12 +57,12 @@ app.use(function (req, res, next){
 app.use(expressValidator());
 
 // require passport session
-// require('./config/auth')(passport);
+require('./config/auth')(passport);
 
 // init passport
-// app.use(passport.initialize());
+app.use(passport.initialize());
 // persistent login sessions
-// app.use(passport.session()); 
+app.use(passport.session()); 
 
 // web routes index entry
 app.use('/', route);
